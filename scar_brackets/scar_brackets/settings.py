@@ -35,6 +35,7 @@ ALLOWED_HOSTS = [
     "[::1]",
     "fights.socalattackrobots.com",
     "192.168.86.203",
+    "django"
 ]
 
 CSRF_TRUSTED_ORIGINS = [
