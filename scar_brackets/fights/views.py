@@ -17,7 +17,7 @@ from preferences import preferences
 
 NEXT_MATCH_START = timedelta(minutes=1)
 MATCH_DELAY = timedelta(minutes=3)
-DEFAULT_BACKGROUND_COLOR = "DC3545"
+DEFAULT_BACKGROUND_COLOR = "3b3b3b"
 
 
 def output(tournaments=[]):
