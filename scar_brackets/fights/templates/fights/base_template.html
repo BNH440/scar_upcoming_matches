@@ -32,7 +32,7 @@
                 <a href="/fights/user/{{ user.id }}" class="link-light">{{ user.profile.display_name }}</a> {% if perms.fights.change_match %}|
                 Staff {% endif %}| <a href="/accounts/logout" class="link-light">Logout </a>
             {% else %}
-                <a href="/accounts/login" class="link-light">Login</a>
+                <a href="/admin" class="link-light">Login</a>
             {% endif %}
         </div>
         <br><br>
