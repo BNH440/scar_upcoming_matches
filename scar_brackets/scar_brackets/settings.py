@@ -40,6 +40,7 @@ ALLOWED_HOSTS = [
 
 CSRF_TRUSTED_ORIGINS = [
     "https://fights.socalattackrobots.com",
+    "https://brackets.placerrobotics.org"
 ]
 
 
@@ -100,7 +101,7 @@ WSGI_APPLICATION = "scar_brackets.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+        "NAME": BASE_DIR / "data/db.sqlite3",
     }
 }
 
